@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <View style="@style/Divider"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1: Which Letter is seventh from left of 16th from right in
+English Alphabet"/>
+        <RadioGroup
+            android:id="@+id/numOneRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/oneOne_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E"/>
+        </RadioGroup>
+        <View style="@style/Divider"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2: If 72 * 96 = 6927, 58 * 87 = 7885, then
+        79*86 = "/>
+        <RadioGroup
+            android:id="@+id/numTwoRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7689"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8976"/>
+            <RadioButton
+                android:id="@+id/twoThree_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6897"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6978"/>
+        </RadioGroup>
+        <View style="@style/Divider"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3: If 6 * 5 = 91, 8 *7 = 169, 10 * 7 = 211 then 11 * 10"/>
+        <RadioGroup
+            android:id="@+id/numThreeRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/ThreeOneRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="331"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="993"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="211"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="845"/>
+        </RadioGroup>
+        <View style="@style/Divider"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4: The Mahabharata War lasted for "
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:hint="Please enter your answer"
+            android:inputType="text">
+
+        </EditText>
+        <View style="@style/Divider"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5: Who was King Santunu's wife"/>
+        <CheckBox
+            android:id="@+id/ganga_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganga"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:id="@+id/kunti_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kunti"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:id="@+id/radha_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radha"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:id="@+id/satyavati_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satyavati"
+            android:textSize="16sp"/>
+        <View style="@style/Divider"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6: Which is the first country to win football World cup."/>
+        <RadioGroup
+            android:id="@+id/numSixRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/SixOne_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uraguay"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brazil"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="England"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Germany"/>
+        </RadioGroup>
+        <View style="@style/Divider"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+    </LinearLayout>
+</ScrollView>

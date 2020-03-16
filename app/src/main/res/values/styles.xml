@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryVariant">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#2962FF</item>
+        <item name="colorSecondaryVariant">#0039CB</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorError">#F44336</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#FAF4F4</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">#F7F1F1</item>
+       
+    </style>
+    <style name="NewActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:background">#666666</item>
+    </style>
+    <style name="TitleBarTextColor" parent="@style/Platform.MaterialComponents.Light">
+        <item name="android:textColor">#FFFCFC</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+
+    </style>
+</resources>
